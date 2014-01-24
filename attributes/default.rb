@@ -1,0 +1,1 @@
+node.default['jenkins']['master']['install_method'] = 'package'
