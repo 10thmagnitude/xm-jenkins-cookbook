@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
       }
     }
     chef.run_list = [
-      "recipe[myface::default]"
+      "recipe[xm-jenkins::default]"
     ]
   end
 end
